@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 100px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 150px;;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.heading:hover {
+  color: #61dafb;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background:rgb(253,249,239);
+}
+
+.form {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.heading-2 {
+  text-align:center;
+  color:rgb(85,24,15);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 420px;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid rgb(41,3,2);
+  border-radius: 20px;
+  background:rgb(104, 16, 16);
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.2), 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.output {
+  width: 90%;
+  height: 50px;
+  margin-top: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: right;
+  color: #ffffff;
+  font-size: 20px;
+  background: rgb(180, 34, 37);
+  box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.output:focus {
+  outline: none;
+}
+
+.buttons {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.button {
+  width: 23%;
+  height: 18%;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  background: rgb(230, 82, 55);
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s ease;
+}
+
+.clear {
+  width: 80px;
+  height: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  background:  #61dafb;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s ease;
+}
+
+.enter {
+  background: rgb(203, 43, 68);
+}
+
+.button:hover {
+  background: rgb(209, 41, 43);
+}
+
+.enter:hover {
+	background: rgb(181, 43, 50);
+}
+
+.enter:active,
+.enter:focus,
+.button:active,
+.button:focus {
+  outline: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
